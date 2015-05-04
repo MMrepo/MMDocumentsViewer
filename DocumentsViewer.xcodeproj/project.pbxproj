@@ -14,10 +14,6 @@
 		54DD2B131AF7AF9600409A9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54DD2B121AF7AF9600409A9C /* Images.xcassets */; };
 		54DD2B161AF7AF9600409A9C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54DD2B141AF7AF9600409A9C /* LaunchScreen.xib */; };
 		54DD2B221AF7AF9600409A9C /* DocumentsViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DD2B211AF7AF9600409A9C /* DocumentsViewerTests.m */; };
-		54DD2B2F1AF7B18900409A9C /* test3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 54DD2B2E1AF7B18900409A9C /* test3.pdf */; };
-		54DD2B331AF7B73800409A9C /* 10-krokow.ppt in Resources */ = {isa = PBXBuildFile; fileRef = 54DD2B321AF7B72600409A9C /* 10-krokow.ppt */; };
-		54DD2B351AF7B8BD00409A9C /* test.key in Resources */ = {isa = PBXBuildFile; fileRef = 54DD2B341AF7B8BD00409A9C /* test.key */; };
-		54DD2B371AF7B9D200409A9C /* testKey.key in Resources */ = {isa = PBXBuildFile; fileRef = 54DD2B361AF7B9D200409A9C /* testKey.key */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,10 +40,6 @@
 		54DD2B1B1AF7AF9600409A9C /* DocumentsViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DocumentsViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54DD2B201AF7AF9600409A9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54DD2B211AF7AF9600409A9C /* DocumentsViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DocumentsViewerTests.m; sourceTree = "<group>"; };
-		54DD2B2E1AF7B18900409A9C /* test3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = test3.pdf; sourceTree = "<group>"; };
-		54DD2B321AF7B72600409A9C /* 10-krokow.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "10-krokow.ppt"; sourceTree = "<group>"; };
-		54DD2B341AF7B8BD00409A9C /* test.key */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = test.key; sourceTree = "<group>"; };
-		54DD2B361AF7B9D200409A9C /* testKey.key */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = testKey.key; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,10 +81,6 @@
 		54DD2B041AF7AF9600409A9C /* DocumentsViewer */ = {
 			isa = PBXGroup;
 			children = (
-				54DD2B361AF7B9D200409A9C /* testKey.key */,
-				54DD2B341AF7B8BD00409A9C /* test.key */,
-				54DD2B321AF7B72600409A9C /* 10-krokow.ppt */,
-				54DD2B2E1AF7B18900409A9C /* test3.pdf */,
 				54DD2B091AF7AF9600409A9C /* AppDelegate.h */,
 				54DD2B0A1AF7AF9600409A9C /* AppDelegate.m */,
 				54DD2B0C1AF7AF9600409A9C /* ViewController.h */,
@@ -211,12 +199,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54DD2B331AF7B73800409A9C /* 10-krokow.ppt in Resources */,
-				54DD2B351AF7B8BD00409A9C /* test.key in Resources */,
 				54DD2B111AF7AF9600409A9C /* Main.storyboard in Resources */,
-				54DD2B2F1AF7B18900409A9C /* test3.pdf in Resources */,
 				54DD2B161AF7AF9600409A9C /* LaunchScreen.xib in Resources */,
-				54DD2B371AF7B9D200409A9C /* testKey.key in Resources */,
 				54DD2B131AF7AF9600409A9C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +416,7 @@
 				54DD2B271AF7AF9600409A9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54DD2B281AF7AF9600409A9C /* Build configuration list for PBXNativeTarget "DocumentsViewerTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +425,7 @@
 				54DD2B2A1AF7AF9600409A9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
